@@ -18,7 +18,7 @@ public class Exercicio03 {
 
     }
 
-    private static List<Produto> getProdutosCadastradosNoSite(Map<String, Double> map) {
+    private static List<    Produto> getProdutosCadastradosNoSite(Map<String, Double> map) {
 
         List<Produto> produtos = new ArrayList<>();
 

@@ -1,10 +1,14 @@
 package exercicio01;
 
+import javax.swing.*;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Set;
 import java.util.TreeSet;
 
 public class Fibonacci {
-
+    private  int guarda;
+    List<Integer> sequencia = new ArrayList<>();
     /**
      * Retorna um array contendo uma sequencia de números inteiros de Fibonacci.
      *
@@ -20,7 +24,9 @@ public class Fibonacci {
      * @return int[]
      */
     public int[] getSequenciaFibonacciDe(int tamanho) {
-        // TODO: implemente o código deste método
+        for (var  i = 0; i < tamanho; i++) {
+
+        }
         return null;
     }
 
